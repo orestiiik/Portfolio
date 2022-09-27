@@ -75,7 +75,7 @@ export default function ContactPage() {
                     <Grid item xs={12} md={6} my={'auto'}>
                         <Fade right>
 
-                            <Box px={4} mx={5} py={3} bgcolor={theme.textColor}>
+                            <Box px={4} mx={{xs:1, md: 5}} py={3} bgcolor={theme.textColor}>
                                 <Typography fontWeight={600} variant={'h5'} color={theme.primaryColor}>
                                     Contact me 💻
                                 </Typography>

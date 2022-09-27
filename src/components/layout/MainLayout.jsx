@@ -12,7 +12,7 @@ const MainLayout = ({children}) => {
             <Box sx={{borderBottom: 2.5, borderColor: theme.secondaryColor}} pb={2}>
                 <Navbar
                     menu={["Projects", "About me"]}
-                    burger={["Home", "Projects", "About me", "Contact"]}
+                    burger={["Projects", "About me", "Contact"]}
                 />
             </Box>
             {children}
